@@ -12,11 +12,11 @@ class Task_1:
             self.sizeMTU_1 = 1410  # Значение MTU 1-го сегмента
             self.sizeMTU_2 = 700  # Значение MTU 2-го сегмента
             self.sizeMTU_3 = 1460  # Значение MTU 3-го сегмента
-        elif self.var == 9:  # Андрей
-            self.sizeFile = 200 * 10**3  # Размер файла, байт
+        elif self.var == 8:  # Андрей
+            self.sizeFile = 100 * 10**3  # Размер файла, байт
             self.sizeMTU_1 = 1410  # Значение MTU 1-го сегмента
-            self.sizeMTU_2 = 1350  # Значение MTU 2-го сегмента
-            self.sizeMTU_3 = 1420  # Значение MTU 3-го сегмента
+            self.sizeMTU_2 = 500  # Значение MTU 2-го сегмента
+            self.sizeMTU_3 = 1400  # Значение MTU 3-го сегмента
         else:
             print("Неправильно указан номер варианта")
             sys.exit()
@@ -27,7 +27,7 @@ class Task_1:
 
 
 if __name__ == "__main__":
-    Work = Task_1(10)
+    Work = Task_1(8)
     Work.One()
 
     # Задание:
